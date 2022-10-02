@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-c$$$mqt5)lrzpkvh@!h=u3t&3$dgb$d1+(ohy77j8w(w-(5j$1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['spiidweb-production.up.railway.app']
 
 
 # Application definition
