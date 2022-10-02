@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-c$$$mqt5)lrzpkvh@!h=u3t&3$dgb$d1+(ohy77j8w(w-(5j$1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['spiidweb-production.up.railway.app']
+ALLOWED_HOSTS = ['spiidweb-production.up.railway.app','127.0.0.1']
 
 
 # Application definition
@@ -120,10 +120,10 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS=[
-    os.path.join(BASE_DIR, '/static/')
+    os.path.join(BASE_DIR, 'static')
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, '/staticfiles/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
